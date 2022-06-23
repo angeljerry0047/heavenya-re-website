@@ -1,0 +1,48 @@
+.search_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  border-radius: 25px;
+  background: #ffffff;
+  width: 360px;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.0784314);
+}
+input {
+  outline: none;
+  border: none;
+  width: 70%;
+}
+.top_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height, or 138% */
+
+  color: #2d2d2d;
+}
+.cards_div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  background: #91b5fb;
+  border-radius: 5px;
+  width: 230px;
+  height: 50px;
+  outline: none;
+  border: none;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
